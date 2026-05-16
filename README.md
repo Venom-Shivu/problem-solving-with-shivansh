@@ -2,10 +2,10 @@
 
 <div align="center">
 
-![GitHub Repo stars](https://img.shields.io/github/stars/your-username/problem-solving-with-shivansh?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/your-username/problem-solving-with-shivansh?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/problem-solving-with-shivansh?style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/problem-solving-with-shivansh?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/Venom-Shivu/problem-solving-with-shivansh?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Venom-Shivu/problem-solving-with-shivansh?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Venom-Shivu/problem-solving-with-shivansh?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/Venom-Shivu/problem-solving-with-shivansh?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge\&logo=python)
 ![LeetCode](https://img.shields.io/badge/Platform-LeetCode-orange?style=for-the-badge\&logo=leetcode)
 
