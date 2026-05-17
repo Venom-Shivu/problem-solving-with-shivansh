@@ -4,27 +4,28 @@ class Solution(object):
 
         n = len(nums)
 
-        # Place every number at its correct index
         i = 0
 
         while i < n:
 
-            current = nums[i]
+            val = nums[i]
 
-            correct_index = current - 1
+            # Correct position for current value
+            correct = val - 1
 
-            # Place current number correctly if possible
-            if (1 <= current <= n and
-                    nums[i] != nums[correct_index]):
+            # Valid number and not already placed correctly
+            if 1 <= val <= n and nums[correct] != val:
 
-                nums[i], nums[correct_index] = \
-                    nums[correct_index], nums[i]
+                # Faster manual swap
+                temp = nums[correct]
+                nums[correct] = val
+                nums[i] = temp
 
             else:
                 i += 1
 
         # Find first missing positive
-        for i in range(n):
+        for i in xrange(n):
 
             if nums[i] != i + 1:
                 return i + 1
