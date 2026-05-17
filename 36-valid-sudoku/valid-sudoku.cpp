@@ -3,8 +3,14 @@ public:
 
     bool isValidSudoku(vector<vector<char>>& board) {
 
-        // Sets for rows, columns, and boxes
-        unordered_set<string> seen;
+        // rows[i][num] -> num exists in row i
+        bool rows[9][9] = {false};
+
+        // cols[i][num] -> num exists in col i
+        bool cols[9][9] = {false};
+
+        // boxes[i][num] -> num exists in box i
+        bool boxes[9][9] = {false};
 
         for (int row = 0; row < 9; row++) {
 
@@ -12,35 +18,29 @@ public:
 
                 char current = board[row][col];
 
-                // Ignore empty cells
+                // Skip empty cells
                 if (current == '.') {
                     continue;
                 }
 
-                // Create unique identifiers
-                string rowKey =
-                    "row" + to_string(row) + current;
+                // Convert char digit to index (0-8)
+                int num = current - '1';
 
-                string colKey =
-                    "col" + to_string(col) + current;
-
-                string boxKey =
-                    "box" +
-                    to_string((row / 3) * 3 + (col / 3)) +
-                    current;
+                // Calculate box index
+                int boxIndex = (row / 3) * 3 + (col / 3);
 
                 // Duplicate found
-                if (seen.count(rowKey) ||
-                    seen.count(colKey) ||
-                    seen.count(boxKey)) {
+                if (rows[row][num] ||
+                    cols[col][num] ||
+                    boxes[boxIndex][num]) {
 
                     return false;
                 }
 
-                // Mark as seen
-                seen.insert(rowKey);
-                seen.insert(colKey);
-                seen.insert(boxKey);
+                // Mark digit as seen
+                rows[row][num] = true;
+                cols[col][num] = true;
+                boxes[boxIndex][num] = true;
             }
         }
 
