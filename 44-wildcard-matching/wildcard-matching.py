@@ -27,7 +27,7 @@ class Solution(object):
 
                 j += 1
 
-            # Previous '*' exists → backtrack
+            # Backtrack to previous '*'
             elif star != -1:
 
                 j = star + 1
@@ -35,10 +35,11 @@ class Solution(object):
                 match += 1
                 i = match
 
+            # No match possible
             else:
                 return False
 
-        # Remaining pattern should all be '*'
+        # Remaining pattern must be all '*'
         while j < m and p[j] == '*':
             j += 1
 
