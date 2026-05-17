@@ -10,21 +10,23 @@ class Solution(object):
 
         res = [0] * (n + m)
 
+        # Precompute digits once
+        a = [ord(c) - 48 for c in num1]
+        b = [ord(c) - 48 for c in num2]
+
         for i in xrange(n - 1, -1, -1):
 
-            d1 = ord(num1[i]) - 48
+            ai = a[i]
+            ri = res
 
             for j in xrange(m - 1, -1, -1):
 
-                total = d1 * (ord(num2[j]) - 48)
+                pos = i + j + 1
 
-                p1 = i + j
-                p2 = i + j + 1
+                total = ai * b[j] + ri[pos]
 
-                total += res[p2]
-
-                res[p2] = total % 10
-                res[p1] += total / 10
+                ri[pos] = total % 10
+                ri[pos - 1] += total / 10
 
         # Skip leading zeros
         i = 0
@@ -32,5 +34,5 @@ class Solution(object):
         while res[i] == 0:
             i += 1
 
-        # Faster conversion
-        return ''.join(map(str, res[i:]))
+        # Faster than map(str,...)
+        return ''.join(chr(x + 48) for x in res[i:])
