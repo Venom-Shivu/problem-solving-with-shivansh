@@ -2,13 +2,8 @@ class Solution(object):
 
     def trap(self, height):
 
-        n = len(height)
-
-        if n <= 2:
-            return 0
-
         left = 0
-        right = n - 1
+        right = len(height) - 1
 
         leftMax = 0
         rightMax = 0
@@ -17,24 +12,24 @@ class Solution(object):
 
         while left < right:
 
-            # Process smaller side
-            if height[left] < height[right]:
+            hLeft = height[left]
+            hRight = height[right]
 
-                if height[left] >= leftMax:
-                    leftMax = height[left]
+            if hLeft < hRight:
 
+                if hLeft > leftMax:
+                    leftMax = hLeft
                 else:
-                    water += leftMax - height[left]
+                    water += leftMax - hLeft
 
                 left += 1
 
             else:
 
-                if height[right] >= rightMax:
-                    rightMax = height[right]
-
+                if hRight > rightMax:
+                    rightMax = hRight
                 else:
-                    water += rightMax - height[right]
+                    water += rightMax - hRight
 
                 right -= 1
 
