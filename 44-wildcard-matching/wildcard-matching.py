@@ -2,39 +2,44 @@ class Solution(object):
 
     def isMatch(self, s, p):
 
+        i = 0
+        j = 0
+
+        star = -1
+        match = 0
+
         n = len(s)
         m = len(p)
 
-        dp = [False] * (m + 1)
+        while i < n:
 
-        dp[0] = True
+            # Direct match or '?'
+            if j < m and (p[j] == s[i] or p[j] == '?'):
 
-        # Handle patterns like ****
-        for j in xrange(m):
+                i += 1
+                j += 1
 
-            if p[j] == '*':
-                dp[j + 1] = dp[j]
+            # Found '*'
+            elif j < m and p[j] == '*':
 
-        for i in xrange(n):
+                star = j
+                match = i
 
-            prev = dp[0]
+                j += 1
 
-            dp[0] = False
+            # Previous '*' exists → backtrack
+            elif star != -1:
 
-            for j in xrange(m):
+                j = star + 1
 
-                temp = dp[j + 1]
+                match += 1
+                i = match
 
-                if p[j] == '*':
+            else:
+                return False
 
-                    dp[j + 1] = dp[j + 1] or dp[j]
+        # Remaining pattern should all be '*'
+        while j < m and p[j] == '*':
+            j += 1
 
-                else:
-
-                    dp[j + 1] = prev and (
-                        p[j] == s[i] or p[j] == '?'
-                    )
-
-                prev = temp
-
-        return dp[m]
+        return j == m
