@@ -1,0 +1,39 @@
+class Solution:
+
+    def maximalRectangle(self, matrix):
+
+        if not matrix:
+            return 0
+
+        rows = len(matrix)
+        cols = len(matrix[0])
+
+        heights = [0] * (cols + 1)
+        ans = 0
+
+        for r in range(rows):
+
+            # Build histogram
+            for c in range(cols):
+
+                if matrix[r][c] == '1':
+                    heights[c] += 1
+                else:
+                    heights[c] = 0
+
+            stack = [-1]
+
+            for i in range(cols + 1):
+
+                while heights[i] < heights[stack[-1]]:
+
+                    h = heights[stack.pop()]
+                    w = i - stack[-1] - 1
+                    area = h * w
+
+                    if area > ans:
+                        ans = area
+
+                stack.append(i)
+
+        return ans
