@@ -1,16 +1,19 @@
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
+        stack = []
+        prev = float('-inf')
 
-        def dfs(node, low, high):
-            if not node:
-                return True
+        while stack or root:
+            while root:
+                stack.append(root)
+                root = root.left
 
-            if not (low < node.val < high):
+            root = stack.pop()
+
+            if root.val <= prev:
                 return False
 
-            return (
-                dfs(node.left, low, node.val) and
-                dfs(node.right, node.val, high)
-            )
+            prev = root.val
+            root = root.right
 
-        return dfs(root, float('-inf'), float('inf'))
+        return True
