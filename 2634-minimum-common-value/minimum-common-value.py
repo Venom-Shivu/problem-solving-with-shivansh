@@ -1,17 +1,20 @@
 class Solution:
     def getCommon(self, nums1, nums2):
 
-        i = 0
-        j = 0
+        i = j = 0
+        n1 = len(nums1)
+        n2 = len(nums2)
 
-        while i < len(nums1) and j < len(nums2):
+        while i < n1 and j < n2:
 
-            if nums1[i] == nums2[j]:
-                return nums1[i]
+            a = nums1[i]
+            b = nums2[j]
 
-            elif nums1[i] < nums2[j]:
+            if a == b:
+                return a
+
+            if a < b:
                 i += 1
-
             else:
                 j += 1
 
