@@ -1,21 +1,19 @@
 class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
-        level = root
+        curr_level = root
 
-        while level and level.left:
-            curr = level
+        while curr_level and curr_level.left:
+            node = curr_level
 
-            while curr:
-                left = curr.left
-                right = curr.right
+            while node:
+                node.left.next = node.right
 
-                left.next = right
+                nxt = node.next
+                if nxt:
+                    node.right.next = nxt.left
 
-                if curr.next:
-                    right.next = curr.next.left
+                node = nxt
 
-                curr = curr.next
-
-            level = level.left
+            curr_level = curr_level.left
 
         return root
