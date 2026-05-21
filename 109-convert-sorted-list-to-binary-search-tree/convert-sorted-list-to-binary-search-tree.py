@@ -7,23 +7,24 @@ class Solution:
             n += 1
             curr = curr.next
 
-        def build(left, right):
-            nonlocal head
+        head_ref = [head]
+        Tree = TreeNode
 
-            if left > right:
+        def build(l, r):
+            if l > r:
                 return None
 
-            mid = (left + right) // 2
+            mid = (l + r) // 2
 
-            left_child = build(left, mid - 1)
+            left = build(l, mid - 1)
 
-            root = TreeNode(head.val)
-            root.left = left_child
+            node = Tree(head_ref[0].val)
+            node.left = left
 
-            head = head.next
+            head_ref[0] = head_ref[0].next
 
-            root.right = build(mid + 1, right)
+            node.right = build(mid + 1, r)
 
-            return root
+            return node
 
         return build(0, n - 1)
