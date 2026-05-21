@@ -8,8 +8,10 @@ class Solution:
         dp = [0] * (n + 1)
         dp[0] = 1
 
-        for ch in s:
-            for j in range(n - 1, -1, -1):
+        for i, ch in enumerate(s, 1):
+            limit = min(i, n)
+
+            for j in range(limit - 1, -1, -1):
                 if ch == t[j]:
                     dp[j + 1] += dp[j]
 
