@@ -152,3 +152,15 @@ If you find this repository useful:
 ## 🚀 Keep Solving. Keep Improving.
 
 </div>
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0119-pascals-triangle-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0119-pascals-triangle-ii) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0119-pascals-triangle-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0119-pascals-triangle-ii) |
+<!---LeetCode Topics End-->
