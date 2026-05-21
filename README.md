@@ -159,8 +159,10 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0119-pascals-triangle-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0119-pascals-triangle-ii) |
+| [0120-triangle](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0120-triangle) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0119-pascals-triangle-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0119-pascals-triangle-ii) |
+| [0120-triangle](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0120-triangle) |
 <!---LeetCode Topics End-->
