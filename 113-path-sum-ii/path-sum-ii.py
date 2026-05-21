@@ -1,25 +1,29 @@
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> List[List[int]]:
-        result = []
+        ans = []
         path = []
 
-        def dfs(node, remaining):
+        def dfs(node, remain):
             if not node:
                 return
 
-            path.append(node.val)
-            remaining -= node.val
+            val = node.val
+            path.append(val)
+            remain -= val
 
-            # Leaf node and valid path
-            if not node.left and not node.right:
-                if remaining == 0:
-                    result.append(path[:])
+            left = node.left
+            right = node.right
 
+            if not left and not right:
+                if remain == 0:
+                    ans.append(path.copy())
             else:
-                dfs(node.left, remaining)
-                dfs(node.right, remaining)
+                if left:
+                    dfs(left, remain)
+                if right:
+                    dfs(right, remain)
 
             path.pop()
 
         dfs(root, targetSum)
-        return result
+        return ans
