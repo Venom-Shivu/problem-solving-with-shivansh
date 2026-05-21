@@ -3,20 +3,29 @@ class Solution:
         curr = root
 
         while curr:
-            dummy = Node(0)
-            tail = dummy
+            next_head = None
+            prev = None
 
             while curr:
-                if curr.left:
-                    tail.next = curr.left
-                    tail = tail.next
+                left = curr.left
+                right = curr.right
 
-                if curr.right:
-                    tail.next = curr.right
-                    tail = tail.next
+                if left:
+                    if prev:
+                        prev.next = left
+                    else:
+                        next_head = left
+                    prev = left
+
+                if right:
+                    if prev:
+                        prev.next = right
+                    else:
+                        next_head = right
+                    prev = right
 
                 curr = curr.next
 
-            curr = dummy.next
+            curr = next_head
 
         return root
