@@ -3,13 +3,22 @@ class Solution:
         if not root:
             return False
 
-        targetSum -= root.val
+        node_stack = [root]
+        sum_stack = [targetSum - root.val]
 
-        # Leaf node
-        if not root.left and not root.right:
-            return targetSum == 0
+        while node_stack:
+            node = node_stack.pop()
+            remain = sum_stack.pop()
 
-        return (
-            self.hasPathSum(root.left, targetSum) or
-            self.hasPathSum(root.right, targetSum)
-        )
+            if not node.left and not node.right and remain == 0:
+                return True
+
+            if node.right:
+                node_stack.append(node.right)
+                sum_stack.append(remain - node.right.val)
+
+            if node.left:
+                node_stack.append(node.left)
+                sum_stack.append(remain - node.left.val)
+
+        return False
