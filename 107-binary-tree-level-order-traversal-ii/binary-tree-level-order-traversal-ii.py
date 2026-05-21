@@ -5,23 +5,22 @@ class Solution:
         if not root:
             return []
 
-        result = deque()
-        queue = deque([root])
+        res = []
+        q = deque([root])
 
-        while queue:
+        while q:
             level = []
 
-            for _ in range(len(queue)):
-                node = queue.popleft()
-
+            for _ in range(len(q)):
+                node = q.popleft()
                 level.append(node.val)
 
                 if node.left:
-                    queue.append(node.left)
+                    q.append(node.left)
 
                 if node.right:
-                    queue.append(node.right)
+                    q.append(node.right)
 
-            result.appendleft(level)
+            res.append(level)
 
-        return list(result)
+        return res[::-1]
