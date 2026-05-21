@@ -1,17 +1,17 @@
 class Solution:
     def sortedArrayToBST(self, nums: List[int]) -> Optional[TreeNode]:
+        n = len(nums)
 
-        def build(left, right):
-            if left > right:
+        def dfs(l, r):
+            if l > r:
                 return None
 
-            mid = (left + right) // 2
+            mid = (l + r) >> 1   # bit shift slightly faster than //
 
-            root = TreeNode(nums[mid])
+            node = TreeNode(nums[mid])
+            node.left = dfs(l, mid - 1)
+            node.right = dfs(mid + 1, r)
 
-            root.left = build(left, mid - 1)
-            root.right = build(mid + 1, right)
+            return node
 
-            return root
-
-        return build(0, len(nums) - 1)
+        return dfs(0, n - 1)
