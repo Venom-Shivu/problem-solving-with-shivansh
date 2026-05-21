@@ -1,30 +1,28 @@
 class Solution:
     def sortedListToBST(self, head: Optional[ListNode]) -> Optional[TreeNode]:
-        n = 0
+        size = 0
         curr = head
 
         while curr:
-            n += 1
+            size += 1
             curr = curr.next
 
-        head_ref = [head]
-        Tree = TreeNode
+        def build(left, right):
+            nonlocal head
 
-        def build(l, r):
-            if l > r:
+            if left > right:
                 return None
 
-            mid = (l + r) // 2
+            mid = (left + right) // 2
 
-            left = build(l, mid - 1)
+            left_child = build(left, mid - 1)
 
-            node = Tree(head_ref[0].val)
-            node.left = left
+            root = TreeNode(head.val)
+            head = head.next
 
-            head_ref[0] = head_ref[0].next
+            root.left = left_child
+            root.right = build(mid + 1, right)
 
-            node.right = build(mid + 1, r)
+            return root
 
-            return node
-
-        return build(0, n - 1)
+        return build(0, size - 1)
