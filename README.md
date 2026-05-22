@@ -188,4 +188,17 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0125-valid-palindrome) |
+| [0126-word-ladder-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0126-word-ladder-ii) |
+## Hash Table
+|  |
+| ------- |
+| [0126-word-ladder-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0126-word-ladder-ii) |
+## Backtracking
+|  |
+| ------- |
+| [0126-word-ladder-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0126-word-ladder-ii) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0126-word-ladder-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0126-word-ladder-ii) |
 <!---LeetCode Topics End-->
