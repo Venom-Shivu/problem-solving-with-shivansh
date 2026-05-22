@@ -1,9 +1,8 @@
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
-        start = total = tank = 0
-        n = len(gas)
+        total = tank = start = 0
 
-        for i in range(n):
+        for i in range(len(gas)):
             diff = gas[i] - cost[i]
 
             total += diff
