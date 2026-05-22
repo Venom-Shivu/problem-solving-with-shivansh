@@ -167,6 +167,7 @@ If you find this repository useful:
 | [0128-longest-consecutive-sequence](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0135-candy) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -182,6 +183,7 @@ If you find this repository useful:
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0135-candy) |
 ## Binary Search
 |  |
 | ------- |
