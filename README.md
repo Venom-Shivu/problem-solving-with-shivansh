@@ -180,4 +180,12 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0033-search-in-rotated-sorted-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0125-valid-palindrome) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
