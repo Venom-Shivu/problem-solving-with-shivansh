@@ -168,6 +168,7 @@ If you find this repository useful:
 | [0130-surrounded-regions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0135-candy) |
+| [0136-single-number](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0136-single-number) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -246,4 +247,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0133-clone-graph) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
