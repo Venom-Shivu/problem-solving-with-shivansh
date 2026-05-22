@@ -158,6 +158,7 @@ If you find this repository useful:
 ## Array
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0033-search-in-rotated-sorted-array) |
 | [0119-pascals-triangle-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0119-pascals-triangle-ii) |
 | [0120-triangle](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -175,4 +176,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## Binary Search
+|  |
+| ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0033-search-in-rotated-sorted-array) |
 <!---LeetCode Topics End-->
