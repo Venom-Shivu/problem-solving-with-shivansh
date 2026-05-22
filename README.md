@@ -162,6 +162,7 @@ If you find this repository useful:
 | [0120-triangle](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -169,6 +170,7 @@ If you find this repository useful:
 | [0120-triangle](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 ## Greedy
 |  |
 | ------- |
