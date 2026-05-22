@@ -175,6 +175,7 @@ If you find this repository useful:
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0131-palindrome-partitioning](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0131-palindrome-partitioning) |
+| [0132-palindrome-partitioning-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0132-palindrome-partitioning-ii) |
 ## Greedy
 |  |
 | ------- |
@@ -194,6 +195,7 @@ If you find this repository useful:
 | [0126-word-ladder-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0131-palindrome-partitioning) |
+| [0132-palindrome-partitioning-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0132-palindrome-partitioning-ii) |
 ## Hash Table
 |  |
 | ------- |
