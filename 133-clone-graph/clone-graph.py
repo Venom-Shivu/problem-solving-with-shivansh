@@ -1,20 +1,23 @@
+from collections import deque
+
 class Solution:
     def cloneGraph(self, node: 'Node') -> 'Node':
         if not node:
             return None
 
-        clones = {}
+        clones = {node: Node(node.val)}
+        q = deque([node])
 
-        def dfs(curr):
-            if curr in clones:
-                return clones[curr]
+        while q:
+            curr = q.popleft()
 
-            copy = Node(curr.val)
-            clones[curr] = copy
+            clone = clones[curr]
 
-            for neighbor in curr.neighbors:
-                copy.neighbors.append(dfs(neighbor))
+            for nei in curr.neighbors:
+                if nei not in clones:
+                    clones[nei] = Node(nei.val)
+                    q.append(nei)
 
-            return copy
+                clone.neighbors.append(clones[nei])
 
-        return dfs(node)
+        return clones[node]
