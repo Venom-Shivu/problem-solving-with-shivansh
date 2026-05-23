@@ -170,6 +170,7 @@ If you find this repository useful:
 | [0135-candy](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0137-single-number-ii) |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 ## Dynamic Programming
 |  |
 | ------- |
