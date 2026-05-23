@@ -170,6 +170,7 @@ If you find this repository useful:
 | [0135-candy](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0137-single-number-ii) |
+| [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 ## Dynamic Programming
 |  |
@@ -181,6 +182,7 @@ If you find this repository useful:
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0131-palindrome-partitioning](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
 ## Greedy
 |  |
 | ------- |
@@ -203,6 +205,7 @@ If you find this repository useful:
 | [0127-word-ladder](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
 ## Hash Table
 |  |
 | ------- |
@@ -211,6 +214,7 @@ If you find this repository useful:
 | [0128-longest-consecutive-sequence](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
 ## Backtracking
 |  |
 | ------- |
@@ -259,4 +263,12 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0138-copy-list-with-random-pointer](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0138-copy-list-with-random-pointer) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
