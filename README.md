@@ -201,6 +201,7 @@ If you find this repository useful:
 | [0125-valid-palindrome](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0142-linked-list-cycle-ii) |
+| [0143-reorder-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0143-reorder-list) |
 ## String
 |  |
 | ------- |
@@ -274,6 +275,7 @@ If you find this repository useful:
 | [0138-copy-list-with-random-pointer](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0142-linked-list-cycle-ii) |
+| [0143-reorder-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0143-reorder-list) |
 ## Trie
 |  |
 | ------- |
@@ -284,4 +286,12 @@ If you find this repository useful:
 | ------- |
 | [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
+## Stack
+|  |
+| ------- |
+| [0143-reorder-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0143-reorder-list) |
+## Recursion
+|  |
+| ------- |
+| [0143-reorder-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0143-reorder-list) |
 <!---LeetCode Topics End-->
