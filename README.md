@@ -210,6 +210,7 @@ If you find this repository useful:
 | [0127-word-ladder](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0133-clone-graph) |
+| [0138-copy-list-with-random-pointer](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0138-copy-list-with-random-pointer) |
 ## Backtracking
 |  |
 | ------- |
@@ -254,4 +255,8 @@ If you find this repository useful:
 | ------- |
 | [0136-single-number](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0137-single-number-ii) |
+## Linked List
+|  |
+| ------- |
+| [0138-copy-list-with-random-pointer](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0138-copy-list-with-random-pointer) |
 <!---LeetCode Topics End-->
