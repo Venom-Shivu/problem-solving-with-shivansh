@@ -171,6 +171,7 @@ If you find this repository useful:
 | [0136-single-number](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 ## Dynamic Programming
 |  |
@@ -183,6 +184,7 @@ If you find this repository useful:
 | [0131-palindrome-partitioning](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
 ## Greedy
 |  |
 | ------- |
@@ -206,6 +208,7 @@ If you find this repository useful:
 | [0131-palindrome-partitioning](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -215,11 +218,13 @@ If you find this repository useful:
 | [0133-clone-graph](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
 ## Backtracking
 |  |
 | ------- |
 | [0126-word-ladder-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0126-word-ladder-ii) |
 | [0131-palindrome-partitioning](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0131-palindrome-partitioning) |
+| [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -267,8 +272,10 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
 ## Memoization
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
 <!---LeetCode Topics End-->
