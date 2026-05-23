@@ -5,16 +5,15 @@ class Solution:
 
         curr = head
 
-        # Step 1: Insert copied nodes
+        # Insert copied nodes
         while curr:
-            copy = Node(curr.val)
-            copy.next = curr.next
-            curr.next = copy
-            curr = copy.next
+            nxt = curr.next
+            curr.next = Node(curr.val, nxt)
+            curr = nxt
 
         curr = head
 
-        # Step 2: Set random pointers
+        # Assign random pointers
         while curr:
             if curr.random:
                 curr.next.random = curr.random.next
@@ -24,15 +23,13 @@ class Solution:
         curr = head
         copy_head = head.next
 
-        # Step 3: Separate lists
+        # Separate lists
         while curr:
             copy = curr.next
-
             curr.next = copy.next
-
-            if copy.next:
-                copy.next = copy.next.next
-
             curr = curr.next
+
+            if curr:
+                copy.next = curr.next
 
         return copy_head
