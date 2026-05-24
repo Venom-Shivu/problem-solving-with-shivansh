@@ -3,27 +3,24 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+
 class Solution:
     def insertionSortList(self, head):
-        dummy = ListNode(0)  # start of sorted list
+        dummy = ListNode(0)   # Start of sorted list
         curr = head
-        
+
         while curr:
             prev = dummy
-            
-            # find position to insert
+            nxt = curr.next   # Save next node
+
+            # Find insertion position
             while prev.next and prev.next.val < curr.val:
                 prev = prev.next
-            
-            # save next node
-            nxt = curr.next
-            
-            # insert curr between prev and prev.next
+
+            # Insert current node
             curr.next = prev.next
             prev.next = curr
-            
-            # move forward
+
             curr = nxt
-        
+
         return dummy.next
-        
