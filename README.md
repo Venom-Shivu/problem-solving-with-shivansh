@@ -172,6 +172,7 @@ If you find this repository useful:
 | [0137-single-number-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
+| [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 ## Dynamic Programming
 |  |
@@ -185,6 +186,7 @@ If you find this repository useful:
 | [0132-palindrome-partitioning-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
+| [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 ## Greedy
 |  |
 | ------- |
@@ -294,4 +296,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0143-reorder-list) |
+## Sorting
+|  |
+| ------- |
+| [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 <!---LeetCode Topics End-->
