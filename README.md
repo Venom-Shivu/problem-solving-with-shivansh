@@ -248,16 +248,19 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0145-binary-tree-postorder-traversal) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0130-surrounded-regions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0133-clone-graph) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0145-binary-tree-postorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0145-binary-tree-postorder-traversal) |
 ## Matrix
 |  |
 | ------- |
@@ -292,6 +295,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0143-reorder-list) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0145-binary-tree-postorder-traversal) |
 ## Recursion
 |  |
 | ------- |
