@@ -6,21 +6,34 @@
 
 class Solution:
     def insertionSortList(self, head):
-        dummy = ListNode(0)   # Start of sorted list
-        curr = head
+        if not head or not head.next:
+            return head
+
+        dummy = ListNode(float('-inf'))
+        dummy.next = head
+
+        lastSorted = head
+        curr = head.next
 
         while curr:
-            prev = dummy
-            nxt = curr.next   # Save next node
 
-            # Find insertion position
-            while prev.next and prev.next.val < curr.val:
-                prev = prev.next
+            # Already in correct position
+            if lastSorted.val <= curr.val:
+                lastSorted = curr
 
-            # Insert current node
-            curr.next = prev.next
-            prev.next = curr
+            else:
+                # Find insertion position
+                prev = dummy
+                while prev.next.val < curr.val:
+                    prev = prev.next
 
-            curr = nxt
+                # Remove curr
+                lastSorted.next = curr.next
+
+                # Insert curr
+                curr.next = prev.next
+                prev.next = curr
+
+            curr = lastSorted.next
 
         return dummy.next
