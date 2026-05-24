@@ -226,6 +226,7 @@ If you find this repository useful:
 | [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
 | [0141-linked-list-cycle](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0146-lru-cache) |
 ## Backtracking
 |  |
 | ------- |
@@ -281,6 +282,7 @@ If you find this repository useful:
 | [0141-linked-list-cycle](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0146-lru-cache) |
 ## Trie
 |  |
 | ------- |
@@ -304,4 +306,12 @@ If you find this repository useful:
 |  |
 | ------- |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
+## Design
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
