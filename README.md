@@ -187,6 +187,7 @@ If you find this repository useful:
 | [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
+| [1871-jump-game-vii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1871-jump-game-vii) |
 ## Greedy
 |  |
 | ------- |
@@ -214,6 +215,7 @@ If you find this repository useful:
 | [0132-palindrome-partitioning-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
+| [1871-jump-game-vii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1871-jump-game-vii) |
 ## Hash Table
 |  |
 | ------- |
@@ -316,4 +318,12 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0146-lru-cache) |
+## Sliding Window
+|  |
+| ------- |
+| [1871-jump-game-vii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1871-jump-game-vii) |
+## Prefix Sum
+|  |
+| ------- |
+| [1871-jump-game-vii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1871-jump-game-vii) |
 <!---LeetCode Topics End-->
