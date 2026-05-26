@@ -9,69 +9,33 @@ class Solution:
         if not head or not head.next:
             return head
 
-        # Get length
-        n = 0
-        node = head
-        while node:
-            n += 1
-            node = node.next
+        # Find middle (slow-fast pointers)
+        slow, fast = head, head.next
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
 
-        dummy = ListNode(0)
-        dummy.next = head
+        mid = slow.next
+        slow.next = None
 
-        step = 1
+        # Sort both halves
+        left = self.sortList(head)
+        right = self.sortList(mid)
 
-        while step < n:
-            prev = dummy
-            curr = dummy.next
+        # Merge
+        dummy = ListNode()
+        tail = dummy
 
-            while curr:
+        while left and right:
+            if left.val <= right.val:
+                tail.next = left
+                left = left.next
+            else:
+                tail.next = right
+                right = right.next
 
-                # Left list
-                left = curr
+            tail = tail.next
 
-                # Right list
-                right = curr
-                for _ in range(step - 1):
-                    if right and right.next:
-                        right = right.next
-
-                if not right:
-                    break
-
-                curr = right.next
-                right.next = None
-                right = curr
-
-                # Next chunk
-                for _ in range(step - 1):
-                    if curr and curr.next:
-                        curr = curr.next
-
-                nextStart = None
-                if curr:
-                    nextStart = curr.next
-                    curr.next = None
-
-                # Merge
-                l1, l2 = left, right
-
-                while l1 and l2:
-                    if l1.val <= l2.val:
-                        prev.next = l1
-                        l1 = l1.next
-                    else:
-                        prev.next = l2
-                        l2 = l2.next
-                    prev = prev.next
-
-                prev.next = l1 if l1 else l2
-
-                while prev.next:
-                    prev = prev.next
-
-                curr = nextStart
-
-            step *= 2
+        tail.next = left if left else right
 
         return dummy.next
