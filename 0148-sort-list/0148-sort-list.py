@@ -6,59 +6,22 @@
 
 class Solution:
     def sortList(self, head):
-        if not head or not head.next:
-            return head
-
-        # Find length
-        n = 0
-        cur = head
-        while cur:
-            n += 1
-            cur = cur.next
-
-        dummy = ListNode(0)
-        dummy.next = head
-        size = 1
-
-        while size < n:
-            tail = dummy
-            cur = dummy.next
-
-            while cur:
-                left = cur
-                right = self.cut(left, size)
-                cur = self.cut(right, size)
-
-                # Merge directly
-                while left and right:
-                    if left.val <= right.val:
-                        tail.next = left
-                        left = left.next
-                    else:
-                        tail.next = right
-                        right = right.next
-                    tail = tail.next
-
-                tail.next = left if left else right
-
-                while tail.next:
-                    tail = tail.next
-
-            size <<= 1
-
-        return dummy.next
-
-    def cut(self, head, size):
         if not head:
             return None
 
-        cur = head
-        for _ in range(size - 1):
-            if cur.next:
-                cur = cur.next
-            else:
-                break
+        vals = []
 
-        nxt = cur.next
-        cur.next = None
-        return nxt
+        while head:
+            vals.append(head.val)
+            head = head.next
+
+        vals.sort()
+
+        dummy = ListNode(0)
+        curr = dummy
+
+        for val in vals:
+            curr.next = ListNode(val)
+            curr = curr.next
+
+        return dummy.next
