@@ -205,6 +205,7 @@ If you find this repository useful:
 | [0141-linked-list-cycle](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0143-reorder-list) |
+| [0148-sort-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0148-sort-list) |
 ## String
 |  |
 | ------- |
@@ -288,6 +289,7 @@ If you find this repository useful:
 | [0143-reorder-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0146-lru-cache) |
 | [0147-insertion-sort-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0147-insertion-sort-list) |
+| [0148-sort-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0148-sort-list) |
 ## Trie
 |  |
 | ------- |
@@ -311,6 +313,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0147-insertion-sort-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0147-insertion-sort-list) |
+| [0148-sort-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0148-sort-list) |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 ## Design
 |  |
@@ -328,4 +331,12 @@ If you find this repository useful:
 |  |
 | ------- |
 | [1871-jump-game-vii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1871-jump-game-vii) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0148-sort-list) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
