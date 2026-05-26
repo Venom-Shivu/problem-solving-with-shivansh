@@ -9,33 +9,56 @@ class Solution:
         if not head or not head.next:
             return head
 
-        # Find middle (slow-fast pointers)
-        slow, fast = head, head.next
-        while fast and fast.next:
-            slow = slow.next
-            fast = fast.next.next
+        # Find length
+        n = 0
+        cur = head
+        while cur:
+            n += 1
+            cur = cur.next
 
-        mid = slow.next
-        slow.next = None
+        dummy = ListNode(0)
+        dummy.next = head
+        size = 1
 
-        # Sort both halves
-        left = self.sortList(head)
-        right = self.sortList(mid)
+        while size < n:
+            tail = dummy
+            cur = dummy.next
 
-        # Merge
-        dummy = ListNode()
-        tail = dummy
+            while cur:
+                left = cur
+                right = self.cut(left, size)
+                cur = self.cut(right, size)
 
-        while left and right:
-            if left.val <= right.val:
-                tail.next = left
-                left = left.next
-            else:
-                tail.next = right
-                right = right.next
+                # Merge directly
+                while left and right:
+                    if left.val <= right.val:
+                        tail.next = left
+                        left = left.next
+                    else:
+                        tail.next = right
+                        right = right.next
+                    tail = tail.next
 
-            tail = tail.next
+                tail.next = left if left else right
 
-        tail.next = left if left else right
+                while tail.next:
+                    tail = tail.next
+
+            size <<= 1
 
         return dummy.next
+
+    def cut(self, head, size):
+        if not head:
+            return None
+
+        cur = head
+        for _ in range(size - 1):
+            if cur.next:
+                cur = cur.next
+            else:
+                break
+
+        nxt = cur.next
+        cur.next = None
+        return nxt
