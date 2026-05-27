@@ -172,6 +172,7 @@ If you find this repository useful:
 | [0137-single-number-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
+| [0149-max-points-on-a-line](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0149-max-points-on-a-line) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -234,6 +235,7 @@ If you find this repository useful:
 | [0141-linked-list-cycle](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0146-lru-cache) |
+| [0149-max-points-on-a-line](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0149-max-points-on-a-line) |
 | [0756-pyramid-transition-matrix](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0756-pyramid-transition-matrix) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3120-count-the-number-of-special-characters-i) |
@@ -351,5 +353,10 @@ If you find this repository useful:
 ## Math
 |  |
 | ------- |
+| [0149-max-points-on-a-line](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0149-max-points-on-a-line) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
+## Geometry
+|  |
+| ------- |
+| [0149-max-points-on-a-line](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0149-max-points-on-a-line) |
 <!---LeetCode Topics End-->
