@@ -173,6 +173,7 @@ If you find this repository useful:
 | [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
 | [0149-max-points-on-a-line](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0149-max-points-on-a-line) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -316,6 +317,7 @@ If you find this repository useful:
 | ------- |
 | [0143-reorder-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0143-reorder-list) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0145-binary-tree-postorder-traversal) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Recursion
 |  |
 | ------- |
@@ -354,6 +356,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0149-max-points-on-a-line) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
 ## Geometry
 |  |
