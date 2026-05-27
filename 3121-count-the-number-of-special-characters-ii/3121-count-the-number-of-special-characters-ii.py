@@ -1,20 +1,26 @@
 class Solution:
     def numberOfSpecialChars(self, word: str) -> int:
-        last_lower = {}
-        first_upper = {}
+        lastLower = [-1] * 26
+        firstUpper = [-1] * 26
 
         for i, ch in enumerate(word):
-            if ch.islower():
-                last_lower[ch] = i
-            else:
-                c = ch.lower()
-                if c not in first_upper:
-                    first_upper[c] = i
+            o = ord(ch)
 
-        count = 0
+            # lowercase a-z
+            if 97 <= o <= 122:
+                lastLower[o - 97] = i
+            else:  # uppercase A-Z
+                idx = o - 65
+                if firstUpper[idx] == -1:
+                    firstUpper[idx] = i
 
-        for c in last_lower:
-            if c in first_upper and last_lower[c] < first_upper[c]:
-                count += 1
+        ans = 0
 
-        return count
+        for i in range(26):
+            # must exist in BOTH lower and upper
+            if (lastLower[i] != -1 and
+                firstUpper[i] != -1 and
+                lastLower[i] < firstUpper[i]):
+                ans += 1
+
+        return ans
