@@ -1,58 +1,60 @@
 class Solution:
     def numMagicSquaresInside(self, grid):
-        rows, cols = len(grid), len(grid[0])
-
-        def isMagic(r, c):
-
-            # Center of a valid 3x3 magic square is always 5
-            if grid[r+1][c+1] != 5:
-                return False
-
-            # Check distinct numbers 1-9
-            nums = set()
-
-            for i in range(r, r+3):
-                for j in range(c, c+3):
-                    val = grid[i][j]
-
-                    if val < 1 or val > 9:
-                        return False
-
-                    nums.add(val)
-
-            if len(nums) != 9:
-                return False
-
-            # Rows
-            for i in range(3):
-                if sum(grid[r+i][c:c+3]) != 15:
-                    return False
-
-            # Columns
-            for j in range(3):
-                if (grid[r][c+j] +
-                    grid[r+1][c+j] +
-                    grid[r+2][c+j]) != 15:
-                    return False
-
-            # Diagonals
-            if (grid[r][c] +
-                grid[r+1][c+1] +
-                grid[r+2][c+2]) != 15:
-                return False
-
-            if (grid[r][c+2] +
-                grid[r+1][c+1] +
-                grid[r+2][c]) != 15:
-                return False
-
-            return True
-
+        m, n = len(grid), len(grid[0])
         ans = 0
 
-        for r in range(rows - 2):
-            for c in range(cols - 2):
-                if isMagic(r, c):
+        for r in range(m - 2):
+            row0 = grid[r]
+            row1 = grid[r + 1]
+            row2 = grid[r + 2]
+
+            for c in range(n - 2):
+
+                # center must be 5
+                if row1[c + 1] != 5:
+                    continue
+
+                a = row0[c]
+                b = row0[c+1]
+                d = row0[c+2]
+                e = row1[c]
+                f = row1[c+2]
+                g = row2[c]
+                h = row2[c+1]
+                i = row2[c+2]
+
+                # bitmask uniqueness + range check
+                mask = 0
+
+                for x in (a,b,d,e,5,f,g,h,i):
+                    if x < 1 or x > 9:
+                        mask = -1
+                        break
+
+                    bit = 1 << x
+
+                    if mask & bit:
+                        mask = -1
+                        break
+
+                    mask |= bit
+
+                if mask == -1:
+                    continue
+
+                # all sums must be 15
+                if (
+                    a+b+d == 15 and
+                    e+5+f == 15 and
+                    g+h+i == 15 and
+
+                    a+e+g == 15 and
+                    b+5+h == 15 and
+                    d+f+i == 15 and
+
+                    a+5+i == 15 and
+                    d+5+g == 15
+                ):
                     ans += 1
 
         return ans
