@@ -1,23 +1,16 @@
 class Solution:
     def maxProduct(self, nums):
+        max_prod = min_prod = ans = nums[0]
 
-        cur_max = nums[0]
-        cur_min = nums[0]
+        for x in nums[1:]:
 
-        ans = nums[0]
+            # Negative flips max/min
+            if x < 0:
+                max_prod, min_prod = min_prod, max_prod
 
-        for num in nums[1:]:
+            max_prod = max(x, x * max_prod)
+            min_prod = min(x, x * min_prod)
 
-            # Negative swaps roles
-            if num < 0:
-
-                cur_max, cur_min = cur_min, cur_max
-
-            cur_max = max(num, cur_max * num)
-
-            cur_min = min(num, cur_min * num)
-
-            if cur_max > ans:
-                ans = cur_max
+            ans = max(ans, max_prod)
 
         return ans
