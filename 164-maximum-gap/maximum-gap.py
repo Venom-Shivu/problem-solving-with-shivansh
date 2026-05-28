@@ -6,40 +6,47 @@ class Solution:
         if n < 2:
             return 0
 
-        minVal = min(nums)
-        maxVal = max(nums)
+        mn = min(nums)
+        mx = max(nums)
 
-        if minVal == maxVal:
+        if mn == mx:
             return 0
 
-        bucketSize = max(1, (maxVal - minVal) // (n - 1))
-        bucketCount = (maxVal - minVal) // bucketSize + 1
+        size = max(1, (mx - mn) // (n - 1))
+        cnt = (mx - mn) // size + 1
 
-        bucketsMin = [float('inf')] * bucketCount
-        bucketsMax = [float('-inf')] * bucketCount
-        used = [False] * bucketCount
+        buckets = [[-1, -1] for _ in range(cnt)]
 
-        # place numbers into buckets
-        for num in nums:
+        # fill buckets
+        for x in nums:
 
-            idx = (num - minVal) // bucketSize
+            idx = (x - mn) // size
 
-            bucketsMin[idx] = min(bucketsMin[idx], num)
-            bucketsMax[idx] = max(bucketsMax[idx], num)
+            b = buckets[idx]
 
-            used[idx] = True
+            if b[0] == -1:
+                b[0] = x
+                b[1] = x
+            else:
+                if x < b[0]:
+                    b[0] = x
+                elif x > b[1]:
+                    b[1] = x
 
         ans = 0
-        prevMax = minVal
+        prev = mn
 
-        # compute maximum gap
-        for i in range(bucketCount):
+        # compute gaps
+        for bmin, bmax in buckets:
 
-            if not used[i]:
+            if bmin == -1:
                 continue
 
-            ans = max(ans, bucketsMin[i] - prevMax)
+            gap = bmin - prev
 
-            prevMax = bucketsMax[i]
+            if gap > ans:
+                ans = gap
+
+            prev = bmax
 
         return ans
