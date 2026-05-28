@@ -180,6 +180,7 @@ If you find this repository useful:
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1752-check-if-array-is-sorted-and-rotated) |
+| [3093-longest-common-suffix-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3093-longest-common-suffix-queries) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -229,6 +230,7 @@ If you find this repository useful:
 | [0151-reverse-words-in-a-string](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0151-reverse-words-in-a-string) |
 | [0756-pyramid-transition-matrix](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0756-pyramid-transition-matrix) |
 | [1871-jump-game-vii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1871-jump-game-vii) |
+| [3093-longest-common-suffix-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3093-longest-common-suffix-queries) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3121-count-the-number-of-special-characters-ii) |
 ## Hash Table
@@ -315,6 +317,7 @@ If you find this repository useful:
 | ------- |
 | [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
+| [3093-longest-common-suffix-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3093-longest-common-suffix-queries) |
 ## Memoization
 |  |
 | ------- |
