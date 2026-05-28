@@ -1,23 +1,19 @@
 class Solution:
     def maximumGap(self, nums):
 
-        n = len(nums)
-
-        if n < 2:
+        if len(nums) < 2:
             return 0
 
         nums.sort()
 
         ans = 0
-        prev = nums[0]
+        nums_local = nums
 
-        for i in range(1, n):
+        for i in range(1, len(nums_local)):
 
-            gap = nums[i] - prev
+            diff = nums_local[i] - nums_local[i - 1]
 
-            if gap > ans:
-                ans = gap
-
-            prev = nums[i]
+            if diff > ans:
+                ans = diff
 
         return ans
