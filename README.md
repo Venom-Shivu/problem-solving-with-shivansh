@@ -329,6 +329,7 @@ If you find this repository useful:
 | [0143-reorder-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0143-reorder-list) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0145-binary-tree-postorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0155-min-stack](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0155-min-stack) |
 ## Recursion
 |  |
 | ------- |
@@ -343,6 +344,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0146-lru-cache) |
+| [0155-min-stack](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0155-min-stack) |
 ## Doubly-Linked List
 |  |
 | ------- |
