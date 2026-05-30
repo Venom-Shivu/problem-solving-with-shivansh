@@ -179,6 +179,7 @@ If you find this repository useful:
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0162-find-peak-element) |
 | [0164-maximum-gap](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0164-maximum-gap) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -213,6 +214,7 @@ If you find this repository useful:
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0162-find-peak-element) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [3161-block-placement-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3161-block-placement-queries) |
 ## Two Pointers
 |  |
@@ -224,6 +226,7 @@ If you find this repository useful:
 | [0148-sort-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0165-compare-version-numbers) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## String
 |  |
 | ------- |
