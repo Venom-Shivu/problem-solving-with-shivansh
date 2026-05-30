@@ -1,99 +1,242 @@
-from sortedcontainers import SortedList
+from typing import List
+from sortedcontainers import SortedDict
+
+
+class Obstacle:
+    """
+    Doubly linked list node.
+
+    Used for:
+    1. Obstacle positions
+    2. Prefix maximum-gap checkpoints
+    """
+
+    def __init__(self, x: int, max_gap: int, previous):
+        self.x = x
+        self.max_gap = max_gap
+
+        self.previous = previous
+        self.next = None
+
+    def remove(self):
+        """
+        Remove current node from linked list.
+        Returns next node.
+        """
+        if self.previous:
+            self.previous.next = self.next
+
+        if self.next:
+            self.next.previous = self.previous
+
+        return self.next
+
 
 class Solution:
-    def getResults(self, queries):
 
-        mx = max(q[1] for q in queries)
+    # ---------------------------------------------------------
+    # Query Type 2
+    # ---------------------------------------------------------
 
-        obs = SortedList([0, mx + 1])
+    def can_place(
+        self,
+        obstacle_tree: SortedDict,
+        max_gap_tree: SortedDict,
+        x: int,
+        size: int
+    ) -> bool:
 
-        for q in queries:
-            if q[0] == 1:
-                obs.add(q[1])
+        # Find largest prefix max-gap before x
+        gap_key = next(
+            max_gap_tree.irange(maximum=x, reverse=True),
+            None
+        )
 
-        size = mx + 2
+        gap_node = max_gap_tree[gap_key]
 
-        n = 1
-        while n < size:
-            n <<= 1
+        if gap_node.max_gap >= size:
+            return True
 
-        seg = [0] * (2 * n)
+        # Check last segment ending at x
+        obstacle_key = next(
+            obstacle_tree.irange(maximum=x, reverse=True),
+            None
+        )
 
-        def update(pos, val):
-            p = pos + n
-            seg[p] = val
+        obstacle = obstacle_tree[obstacle_key]
 
-            p >>= 1
+        return (x - obstacle.x) >= size
 
-            while p:
-                left = seg[p << 1]
-                right = seg[p << 1 | 1]
-                seg[p] = left if left > right else right
-                p >>= 1
+    # ---------------------------------------------------------
+    # Reverse obstacle insertion
+    # ---------------------------------------------------------
 
-        def query(l, r):
-            l += n
-            r += n
+    def remove_obstacle(
+        self,
+        obstacle_tree: SortedDict,
+        max_gap_tree: SortedDict,
+        x: int
+    ):
 
-            res = 0
+        obstacle_to_remove = obstacle_tree.pop(x)
 
-            while l <= r:
+        next_obstacle = obstacle_to_remove.remove()
 
-                if l & 1:
-                    if seg[l] > res:
-                        res = seg[l]
-                    l += 1
+        # Remove corresponding max-gap node if it exists
+        removed_gap_node = max_gap_tree.pop(x, None)
 
-                if not (r & 1):
-                    if seg[r] > res:
-                        res = seg[r]
-                    r -= 1
+        if removed_gap_node is not None:
+            removed_gap_node.remove()
 
-                l >>= 1
-                r >>= 1
+        if next_obstacle is None:
+            return
 
-            return res
+        # New merged gap after removing obstacle
+        merged_gap = (
+            next_obstacle.x -
+            next_obstacle.previous.x
+        )
 
-        arr = list(obs)
+        gap_position = next_obstacle.x
 
-        for i in range(1, len(arr)):
-            update(arr[i], arr[i] - arr[i - 1])
+        prev_gap_key = next(
+            max_gap_tree.irange(maximum=x, reverse=True),
+            None
+        )
 
-        ans = []
+        prev_gap_node = max_gap_tree[prev_gap_key]
 
-        for q in reversed(queries):
+        # Nothing changes if previous max gap is already larger
+        if prev_gap_node.max_gap >= merged_gap:
+            return
 
-            if q[0] == 2:
+        current = prev_gap_node.next
 
-                x = q[1]
-                sz = q[2]
+        # Remove dominated max-gap nodes
+        while current and current.max_gap <= merged_gap:
 
-                idx = obs.bisect_right(x)
+            nxt = current.next
 
-                prev = obs[idx - 1]
+            max_gap_tree.pop(current.x, None)
 
-                best = query(0, prev)
+            current.remove()
 
-                gap = x - prev
+            current = nxt
 
-                if gap > best:
-                    best = gap
+        # Insert new max-gap checkpoint
+        new_node = Obstacle(
+            gap_position,
+            merged_gap,
+            prev_gap_node
+        )
 
-                ans.append(best >= sz)
+        prev_gap_node.next = new_node
+        new_node.next = current
+
+        if current:
+            current.previous = new_node
+
+        max_gap_tree[new_node.x] = new_node
+
+    # ---------------------------------------------------------
+    # Main
+    # ---------------------------------------------------------
+
+    def getResults(self, queries: List[List[int]]) -> List[bool]:
+
+        obstacle_positions = []
+
+        for query in queries:
+            if query[0] == 1:
+                obstacle_positions.append(query[1])
+
+        obstacle_positions.sort()
+
+        # -------------------------------------------------
+        # Obstacle linked list
+        # -------------------------------------------------
+
+        obstacle_head = Obstacle(0, 0, None)
+
+        obstacle_tree = SortedDict()
+        obstacle_tree[0] = obstacle_head
+
+        current_obstacle = obstacle_head
+
+        # -------------------------------------------------
+        # Max-gap linked list
+        # -------------------------------------------------
+
+        gap_head = Obstacle(0, 0, None)
+
+        max_gap_tree = SortedDict()
+        max_gap_tree[0] = gap_head
+
+        current_gap = gap_head
+
+        max_gap_so_far = 0
+
+        # -------------------------------------------------
+        # Build structures
+        # -------------------------------------------------
+
+        for pos in obstacle_positions:
+
+            gap = pos - current_obstacle.x
+
+            if gap > max_gap_so_far:
+
+                max_gap_so_far = gap
+
+                gap_node = Obstacle(
+                    pos,
+                    max_gap_so_far,
+                    current_gap
+                )
+
+                current_gap.next = gap_node
+                current_gap = gap_node
+
+                max_gap_tree[pos] = gap_node
+
+            obstacle_node = Obstacle(
+                pos,
+                max_gap_so_far,
+                current_obstacle
+            )
+
+            current_obstacle.next = obstacle_node
+            current_obstacle = obstacle_node
+
+            obstacle_tree[pos] = obstacle_node
+
+        # -------------------------------------------------
+        # Process queries in reverse
+        # -------------------------------------------------
+
+        answers = []
+
+        for query in reversed(queries):
+
+            if query[0] == 1:
+
+                self.remove_obstacle(
+                    obstacle_tree,
+                    max_gap_tree,
+                    query[1]
+                )
 
             else:
 
-                x = q[1]
+                answers.append(
+                    self.can_place(
+                        obstacle_tree,
+                        max_gap_tree,
+                        query[1],
+                        query[2]
+                    )
+                )
 
-                idx = obs.bisect_left(x)
+        answers.reverse()
 
-                left = obs[idx - 1]
-                right = obs[idx + 1]
-
-                update(right, right - left)
-                update(x, 0)
-
-                obs.remove(x)
-
-        ans.reverse()
-        return ans
+        return answers
