@@ -183,6 +183,7 @@ If you find this repository useful:
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1752-check-if-array-is-sorted-and-rotated) |
+| [2126-destroying-asteroids](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2126-destroying-asteroids) |
 | [3093-longest-common-suffix-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3093-longest-common-suffix-queries) |
 | [3161-block-placement-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3161-block-placement-queries) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
@@ -207,6 +208,7 @@ If you find this repository useful:
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0135-candy) |
+| [2126-destroying-asteroids](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2126-destroying-asteroids) |
 ## Binary Search
 |  |
 | ------- |
@@ -354,6 +356,7 @@ If you find this repository useful:
 | [0148-sort-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0148-sort-list) |
 | [0164-maximum-gap](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0164-maximum-gap) |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
+| [2126-destroying-asteroids](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2126-destroying-asteroids) |
 ## Design
 |  |
 | ------- |
