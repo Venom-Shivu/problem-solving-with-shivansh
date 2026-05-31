@@ -294,6 +294,7 @@ If you find this repository useful:
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0173-binary-search-tree-iterator) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -306,6 +307,7 @@ If you find this repository useful:
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0173-binary-search-tree-iterator) |
 ## Matrix
 |  |
 | ------- |
@@ -349,6 +351,7 @@ If you find this repository useful:
 | [0145-binary-tree-postorder-traversal](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0145-binary-tree-postorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0155-min-stack) |
+| [0173-binary-search-tree-iterator](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0173-binary-search-tree-iterator) |
 ## Recursion
 |  |
 | ------- |
@@ -367,6 +370,7 @@ If you find this repository useful:
 | ------- |
 | [0146-lru-cache](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0155-min-stack) |
+| [0173-binary-search-tree-iterator](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0173-binary-search-tree-iterator) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -423,4 +427,12 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0169-majority-element) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0173-binary-search-tree-iterator) |
+## Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->
