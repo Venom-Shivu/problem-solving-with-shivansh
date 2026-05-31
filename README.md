@@ -180,6 +180,7 @@ If you find this repository useful:
 | [0162-find-peak-element](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0162-find-peak-element) |
 | [0164-maximum-gap](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0164-maximum-gap) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0169-majority-element) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -263,6 +264,7 @@ If you find this repository useful:
 | [0146-lru-cache](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0146-lru-cache) |
 | [0149-max-points-on-a-line](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0149-max-points-on-a-line) |
 | [0166-fraction-to-recurring-decimal](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0166-fraction-to-recurring-decimal) |
+| [0169-majority-element](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0169-majority-element) |
 | [0756-pyramid-transition-matrix](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0756-pyramid-transition-matrix) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3120-count-the-number-of-special-characters-i) |
@@ -356,6 +358,7 @@ If you find this repository useful:
 | [0147-insertion-sort-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0147-insertion-sort-list) |
 | [0148-sort-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0148-sort-list) |
 | [0164-maximum-gap](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0164-maximum-gap) |
+| [0169-majority-element](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0169-majority-element) |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 | [2126-destroying-asteroids](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2126-destroying-asteroids) |
 ## Design
@@ -379,6 +382,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0169-majority-element) |
 ## Merge Sort
 |  |
 | ------- |
@@ -412,4 +416,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [3161-block-placement-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3161-block-placement-queries) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
