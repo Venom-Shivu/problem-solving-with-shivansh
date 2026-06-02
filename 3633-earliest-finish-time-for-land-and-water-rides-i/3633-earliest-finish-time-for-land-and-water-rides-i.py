@@ -1,24 +1,22 @@
 class Solution:
-    def earliestFinishTime(
-        self,
-        landStartTime: List[int],
-        landDuration: List[int],
-        waterStartTime: List[int],
-        waterDuration: List[int]
-    ) -> int:
+    def earliestFinishTime(self, landStartTime, landDuration,
+                           waterStartTime, waterDuration):
 
         ans = float('inf')
 
-        for ls, ld in zip(landStartTime, landDuration):
-            land_finish = ls + ld
+        land = [(s, s + d, d) for s, d in zip(landStartTime, landDuration)]
+        water = [(s, s + d, d) for s, d in zip(waterStartTime, waterDuration)]
 
-            for ws, wd in zip(waterStartTime, waterDuration):
-                water_finish = ws + wd
+        for ls, lf, ld in land:
+            for ws, wf, wd in water:
 
-                ans = min(
-                    ans,
-                    max(land_finish, ws) + wd,
-                    max(water_finish, ls) + ld
-                )
+                finish1 = (lf if lf > ws else ws) + wd
+                finish2 = (wf if wf > ls else ls) + ld
+
+                if finish1 < ans:
+                    ans = finish1
+
+                if finish2 < ans:
+                    ans = finish2
 
         return ans
