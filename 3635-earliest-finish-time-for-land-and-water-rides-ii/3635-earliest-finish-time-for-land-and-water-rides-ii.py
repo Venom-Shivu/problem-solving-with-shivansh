@@ -10,88 +10,61 @@ class Solution:
     ) -> int:
 
         INF = 10**18
-        ans = INF
 
-        # ---------- Water preprocessing ----------
-        water = sorted(zip(waterStartTime, waterDuration))
-        m = len(water)
+        def calc(start1, dur1, start2, dur2):
+            rides = sorted(zip(start2, dur2))
+            m = len(rides)
 
-        ws = [0] * m
-        wd = [0] * m
+            s = [0] * m
+            d = [0] * m
 
-        for i, (s, d) in enumerate(water):
-            ws[i] = s
-            wd[i] = d
+            for i in range(m):
+                s[i], d[i] = rides[i]
 
-        suffix_water = [0] * m
-        suffix_water[-1] = ws[-1] + wd[-1]
+            suf = [0] * m
+            suf[-1] = s[-1] + d[-1]
 
-        for i in range(m - 2, -1, -1):
-            cur = ws[i] + wd[i]
-            nxt = suffix_water[i + 1]
-            suffix_water[i] = cur if cur < nxt else nxt
+            for i in range(m - 2, -1, -1):
+                cur = s[i] + d[i]
+                nxt = suf[i + 1]
+                suf[i] = cur if cur < nxt else nxt
 
-        land_finish = sorted(ls + ld for ls, ld in zip(landStartTime, landDuration))
+            finish = [start1[i] + dur1[i] for i in range(len(start1))]
+            finish.sort()
 
-        ptr = 0
-        best_duration = INF
+            ptr = 0
+            best_dur = INF
+            ans = INF
 
-        for t in land_finish:
+            for t in finish:
 
-            while ptr < m and ws[ptr] <= t:
-                if wd[ptr] < best_duration:
-                    best_duration = wd[ptr]
-                ptr += 1
+                while ptr < m and s[ptr] <= t:
+                    if d[ptr] < best_dur:
+                        best_dur = d[ptr]
+                    ptr += 1
 
-            if best_duration != INF:
-                cand = t + best_duration
-                if cand < ans:
-                    ans = cand
+                if best_dur != INF:
+                    v = t + best_dur
+                    if v < ans:
+                        ans = v
 
-            if ptr < m:
-                cand = suffix_water[ptr]
-                if cand < ans:
-                    ans = cand
+                if ptr < m and suf[ptr] < ans:
+                    ans = suf[ptr]
 
-        # ---------- Land preprocessing ----------
-        land = sorted(zip(landStartTime, landDuration))
-        n = len(land)
+            return ans
 
-        ls = [0] * n
-        ld = [0] * n
+        a = calc(
+            landStartTime,
+            landDuration,
+            waterStartTime,
+            waterDuration
+        )
 
-        for i, (s, d) in enumerate(land):
-            ls[i] = s
-            ld[i] = d
+        b = calc(
+            waterStartTime,
+            waterDuration,
+            landStartTime,
+            landDuration
+        )
 
-        suffix_land = [0] * n
-        suffix_land[-1] = ls[-1] + ld[-1]
-
-        for i in range(n - 2, -1, -1):
-            cur = ls[i] + ld[i]
-            nxt = suffix_land[i + 1]
-            suffix_land[i] = cur if cur < nxt else nxt
-
-        water_finish = sorted(ws0 + wd0 for ws0, wd0 in zip(waterStartTime, waterDuration))
-
-        ptr = 0
-        best_duration = INF
-
-        for t in water_finish:
-
-            while ptr < n and ls[ptr] <= t:
-                if ld[ptr] < best_duration:
-                    best_duration = ld[ptr]
-                ptr += 1
-
-            if best_duration != INF:
-                cand = t + best_duration
-                if cand < ans:
-                    ans = cand
-
-            if ptr < n:
-                cand = suffix_land[ptr]
-                if cand < ans:
-                    ans = cand
-
-        return ans
+        return a if a < b else b
