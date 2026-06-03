@@ -1,4 +1,3 @@
-from bisect import bisect_right
 from typing import List
 
 class Solution:
@@ -10,78 +9,89 @@ class Solution:
         waterDuration: List[int]
     ) -> int:
 
-        INF = float('inf')
+        INF = 10**18
+        ans = INF
 
         # ---------- Water preprocessing ----------
         water = sorted(zip(waterStartTime, waterDuration))
-        ws = [x[0] for x in water]
-        wd = [x[1] for x in water]
-
         m = len(water)
 
-        prefWaterDur = [0] * m
-        prefWaterDur[0] = wd[0]
+        ws = [0] * m
+        wd = [0] * m
 
-        for i in range(1, m):
-            prefWaterDur[i] = min(prefWaterDur[i - 1], wd[i])
+        for i, (s, d) in enumerate(water):
+            ws[i] = s
+            wd[i] = d
 
-        suffWaterFinish = [0] * m
-        suffWaterFinish[-1] = ws[-1] + wd[-1]
+        suffix_water = [0] * m
+        suffix_water[-1] = ws[-1] + wd[-1]
 
         for i in range(m - 2, -1, -1):
-            suffWaterFinish[i] = min(
-                suffWaterFinish[i + 1],
-                ws[i] + wd[i]
-            )
+            cur = ws[i] + wd[i]
+            nxt = suffix_water[i + 1]
+            suffix_water[i] = cur if cur < nxt else nxt
 
-        ans = INF
+        land_finish = sorted(ls + ld for ls, ld in zip(landStartTime, landDuration))
 
-        # ---------- Land -> Water ----------
-        for ls, ld in zip(landStartTime, landDuration):
+        ptr = 0
+        best_duration = INF
 
-            t = ls + ld
+        for t in land_finish:
 
-            idx = bisect_right(ws, t) - 1
+            while ptr < m and ws[ptr] <= t:
+                if wd[ptr] < best_duration:
+                    best_duration = wd[ptr]
+                ptr += 1
 
-            if idx >= 0:
-                ans = min(ans, t + prefWaterDur[idx])
+            if best_duration != INF:
+                cand = t + best_duration
+                if cand < ans:
+                    ans = cand
 
-            if idx + 1 < m:
-                ans = min(ans, suffWaterFinish[idx + 1])
+            if ptr < m:
+                cand = suffix_water[ptr]
+                if cand < ans:
+                    ans = cand
 
         # ---------- Land preprocessing ----------
         land = sorted(zip(landStartTime, landDuration))
-        ls = [x[0] for x in land]
-        ld = [x[1] for x in land]
-
         n = len(land)
 
-        prefLandDur = [0] * n
-        prefLandDur[0] = ld[0]
+        ls = [0] * n
+        ld = [0] * n
 
-        for i in range(1, n):
-            prefLandDur[i] = min(prefLandDur[i - 1], ld[i])
+        for i, (s, d) in enumerate(land):
+            ls[i] = s
+            ld[i] = d
 
-        suffLandFinish = [0] * n
-        suffLandFinish[-1] = ls[-1] + ld[-1]
+        suffix_land = [0] * n
+        suffix_land[-1] = ls[-1] + ld[-1]
 
         for i in range(n - 2, -1, -1):
-            suffLandFinish[i] = min(
-                suffLandFinish[i + 1],
-                ls[i] + ld[i]
-            )
+            cur = ls[i] + ld[i]
+            nxt = suffix_land[i + 1]
+            suffix_land[i] = cur if cur < nxt else nxt
 
-        # ---------- Water -> Land ----------
-        for ws0, wd0 in zip(waterStartTime, waterDuration):
+        water_finish = sorted(ws0 + wd0 for ws0, wd0 in zip(waterStartTime, waterDuration))
 
-            u = ws0 + wd0
+        ptr = 0
+        best_duration = INF
 
-            idx = bisect_right(ls, u) - 1
+        for t in water_finish:
 
-            if idx >= 0:
-                ans = min(ans, u + prefLandDur[idx])
+            while ptr < n and ls[ptr] <= t:
+                if ld[ptr] < best_duration:
+                    best_duration = ld[ptr]
+                ptr += 1
 
-            if idx + 1 < n:
-                ans = min(ans, suffLandFinish[idx + 1])
+            if best_duration != INF:
+                cand = t + best_duration
+                if cand < ans:
+                    ans = cand
+
+            if ptr < n:
+                cand = suffix_land[ptr]
+                if cand < ans:
+                    ans = cand
 
         return ans
