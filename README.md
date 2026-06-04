@@ -181,6 +181,7 @@ If you find this repository useful:
 | [0164-maximum-gap](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0164-maximum-gap) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0169-majority-element) |
+| [0174-dungeon-game](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0174-dungeon-game) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -204,6 +205,7 @@ If you find this repository useful:
 | [0139-word-break](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
 | [0152-maximum-product-subarray](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0152-maximum-product-subarray) |
+| [0174-dungeon-game](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0174-dungeon-game) |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 | [1871-jump-game-vii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1871-jump-game-vii) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3751-total-waviness-of-numbers-in-range-i) |
@@ -323,6 +325,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0130-surrounded-regions) |
+| [0174-dungeon-game](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0174-dungeon-game) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
 ## Graph Theory
 |  |
