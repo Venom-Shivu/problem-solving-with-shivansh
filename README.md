@@ -457,4 +457,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3751-total-waviness-of-numbers-in-range-i) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
