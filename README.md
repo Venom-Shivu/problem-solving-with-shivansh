@@ -461,4 +461,5 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0175-combine-two-tables](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0175-combine-two-tables) |
+| [0176-second-highest-salary](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0176-second-highest-salary) |
 <!---LeetCode Topics End-->
