@@ -1,8 +1,12 @@
-/* Write your T-SQL query statement below */
+# Write your MySQL query statement below
 SELECT 
-    p.firstName, 
-    p.lastName, 
-    a.city, 
-    a.state
-FROM Person p WITH (NOLOCK)
-LEFT JOIN Address a WITH (NOLOCK) ON p.personId = a.personId;
+    P.firstName, 
+    P.lastName, 
+    A.city, 
+    A.state
+FROM 
+    Person AS P
+LEFT JOIN 
+    Address AS A
+ON 
+    P.personId = A.personId;
