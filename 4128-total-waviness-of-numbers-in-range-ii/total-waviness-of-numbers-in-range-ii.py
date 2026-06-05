@@ -1,89 +1,56 @@
-from functools import lru_cache
+from functools import cache
 
 class Solution:
     def totalWaviness(self, num1: int, num2: int) -> int:
-        def solve(n: int) -> int:
-            if n < 0:
+
+        def f(n: int) -> int:
+            if n <= 0:
                 return 0
 
-            digits = list(map(int, str(n)))
-            m = len(digits)
+            s = str(n)
+            L = len(s)
 
-            @lru_cache(None)
-            def dp(pos, tight, started, length_state, last2, last1):
-                """
-                Returns:
-                    (count_numbers, total_waviness)
-                """
-                if pos == m:
-                    return (1, 0)
+            @cache
+            def dp(pos, tight, started, seen, a, b):
+                if pos == L:
+                    return 1, 0
 
-                limit = digits[pos] if tight else 9
+                limit = ord(s[pos]) - 48 if tight else 9
 
-                total_count = 0
-                total_waviness = 0
+                total_cnt = 0
+                total_sum = 0
 
                 for d in range(limit + 1):
-                    ntight = tight and (d == limit)
+                    nt = tight and d == limit
 
                     if not started:
                         if d == 0:
-                            cnt, wav = dp(
-                                pos + 1,
-                                ntight,
-                                False,
-                                0,
-                                10,
-                                10,
-                            )
-                            total_count += cnt
-                            total_waviness += wav
+                            cnt, sm = dp(pos + 1, nt, 0, 0, 10, 10)
                         else:
-                            cnt, wav = dp(
-                                pos + 1,
-                                ntight,
-                                True,
-                                1,
-                                10,
-                                d,
-                            )
-                            total_count += cnt
-                            total_waviness += wav
+                            cnt, sm = dp(pos + 1, nt, 1, 1, 10, d)
+
+                        total_cnt += cnt
+                        total_sum += sm
+
+                    elif seen == 1:
+                        cnt, sm = dp(pos + 1, nt, 1, 2, b, d)
+                        total_cnt += cnt
+                        total_sum += sm
 
                     else:
-                        if length_state == 1:
-                            cnt, wav = dp(
-                                pos + 1,
-                                ntight,
-                                True,
-                                2,
-                                last1,
-                                d,
-                            )
-                            total_count += cnt
-                            total_waviness += wav
+                        add = (
+                            (b > a and b > d)
+                            or
+                            (b < a and b < d)
+                        )
 
-                        else:
-                            add = 0
-                            if (last1 > last2 and last1 > d) or (
-                                last1 < last2 and last1 < d
-                            ):
-                                add = 1
+                        cnt, sm = dp(pos + 1, nt, 1, 2, b, d)
 
-                            cnt, wav = dp(
-                                pos + 1,
-                                ntight,
-                                True,
-                                2,
-                                last1,
-                                d,
-                            )
+                        total_cnt += cnt
+                        total_sum += sm + add * cnt
 
-                            total_count += cnt
-                            total_waviness += wav + add * cnt
+                return total_cnt, total_sum
 
-                return (total_count, total_waviness)
+            return dp(0, 1, 0, 0, 10, 10)[1]
 
-            return dp(0, True, False, 0, 10, 10)[1]
-
-        return solve(num2) - solve(num1 - 1)
+        return f(num2) - f(num1 - 1)
