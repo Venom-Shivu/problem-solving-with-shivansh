@@ -2,17 +2,16 @@ from functools import cmp_to_key
 
 class Solution:
     def largestNumber(self, nums):
-        nums = list(map(str, nums))
+        strs = [str(x) for x in nums]
 
-        def compare(a, b):
+        def cmp(a, b):
             if a + b > b + a:
                 return -1
-            if a + b < b + a:
-                return 1
-            return 0
+            return 1 if a + b < b + a else 0
 
-        nums.sort(key=cmp_to_key(compare))
+        strs.sort(key=cmp_to_key(cmp))
 
-        result = ''.join(nums)
+        if strs[0] == "0":
+            return "0"
 
-        return '0' if result[0] == '0' else result
+        return "".join(strs)
