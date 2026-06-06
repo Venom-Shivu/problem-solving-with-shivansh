@@ -188,6 +188,7 @@ If you find this repository useful:
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [2126-destroying-asteroids](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [2574-left-and-right-sum-differences](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2574-left-and-right-sum-differences) |
 | [3093-longest-common-suffix-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3093-longest-common-suffix-queries) |
 | [3161-block-placement-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3161-block-placement-queries) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
@@ -405,6 +406,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [1871-jump-game-vii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1871-jump-game-vii) |
+| [2574-left-and-right-sum-differences](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2574-left-and-right-sum-differences) |
 ## Divide and Conquer
 |  |
 | ------- |
