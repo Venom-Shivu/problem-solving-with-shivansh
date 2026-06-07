@@ -188,6 +188,7 @@ If you find this repository useful:
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [2126-destroying-asteroids](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2574-left-and-right-sum-differences](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2574-left-and-right-sum-differences) |
 | [3093-longest-common-suffix-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3093-longest-common-suffix-queries) |
 | [3161-block-placement-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3161-block-placement-queries) |
@@ -286,6 +287,7 @@ If you find this repository useful:
 | [0169-majority-element](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0169-majority-element) |
 | [0756-pyramid-transition-matrix](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0756-pyramid-transition-matrix) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2196-create-binary-tree-from-descriptions) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3121-count-the-number-of-special-characters-ii) |
 ## Backtracking
@@ -313,6 +315,7 @@ If you find this repository useful:
 | [0129-sum-root-to-leaf-numbers](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0145-binary-tree-postorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0173-binary-search-tree-iterator) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2196-create-binary-tree-from-descriptions) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -326,6 +329,7 @@ If you find this repository useful:
 | [0129-sum-root-to-leaf-numbers](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0145-binary-tree-postorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0173-binary-search-tree-iterator) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2196-create-binary-tree-from-descriptions) |
 ## Matrix
 |  |
 | ------- |
