@@ -478,4 +478,5 @@ If you find this repository useful:
 | [0178-rank-scores](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0178-rank-scores) |
 | [0180-consecutive-numbers](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0180-consecutive-numbers) |
 | [0181-employees-earning-more-than-their-managers](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0181-employees-earning-more-than-their-managers) |
+| [0182-duplicate-emails](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0182-duplicate-emails) |
 <!---LeetCode Topics End-->
