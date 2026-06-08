@@ -1,16 +1,22 @@
 from typing import List
+from math import gcd
 
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         n = len(nums)
         k %= n
 
-        def reverse(l, r):
-            while l < r:
-                nums[l], nums[r] = nums[r], nums[l]
-                l += 1
-                r -= 1
+        if k == 0:
+            return
 
-        reverse(0, n - 1)
-        reverse(0, k - 1)
-        reverse(k, n - 1)
+        for start in range(gcd(n, k)):
+            current = start
+            prev = nums[start]
+
+            while True:
+                nxt = (current + k) % n
+                nums[nxt], prev = prev, nums[nxt]
+                current = nxt
+
+                if current == start:
+                    break
