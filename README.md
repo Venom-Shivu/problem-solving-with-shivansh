@@ -196,6 +196,7 @@ If you find this repository useful:
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
+| [3689-maximum-total-subarray-value-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3689-maximum-total-subarray-value-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -225,6 +226,7 @@ If you find this repository useful:
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
+| [3689-maximum-total-subarray-value-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3689-maximum-total-subarray-value-i) |
 ## Binary Search
 |  |
 | ------- |
