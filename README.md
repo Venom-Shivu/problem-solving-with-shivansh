@@ -197,6 +197,7 @@ If you find this repository useful:
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3689-maximum-total-subarray-value-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3689-maximum-total-subarray-value-i) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -227,6 +228,7 @@ If you find this repository useful:
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3689-maximum-total-subarray-value-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3689-maximum-total-subarray-value-i) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Binary Search
 |  |
 | ------- |
@@ -461,6 +463,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [3161-block-placement-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3161-block-placement-queries) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Counting
 |  |
 | ------- |
@@ -494,4 +497,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2161-partition-array-according-to-given-pivot) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [3691-maximum-total-subarray-value-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3691-maximum-total-subarray-value-ii) |
 <!---LeetCode Topics End-->
