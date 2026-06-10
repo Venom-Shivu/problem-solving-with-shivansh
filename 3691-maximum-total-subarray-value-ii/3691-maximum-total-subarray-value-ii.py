@@ -1,42 +1,53 @@
-import collections
 from bisect import bisect_right
+from typing import List
 
 class Solution:
-    def maxTotalValue(self, nums: list[int], k: int) -> int:
+    def maxTotalValue(self, nums: List[int], k: int) -> int:
         n = len(nums)
-        _nums = nums
+        if n == 0: return 0
         
-        # Step 1: Binary search for the k-th largest subarray value
-        # We find the largest threshold such that at least k subarrays have value >= threshold
-        low, high = 0, 10**9
+        # Local variables for hyper-optimized indexing
+        q1 = [0] * n
+        q1v = [0] * n
+        q2 = [0] * n
+        q2v = [0] * n
+        
+        low = 1
+        high = 1000000000 # max possible value of nums[i]
         threshold = 0
         
+        # Step 1: Binary Search for the k-th largest subarray value
         while low <= high:
-            mid = (low + high) // 2
-            if mid == 0:
-                threshold = 0
-                low = 1
-                continue
-            
+            mid = (low + high) >> 1
             l_cnt = 0
             curr_l = 0
-            qm = collections.deque()
-            qn = collections.deque()
-            qmp, qmpl, qma = qm.pop, qm.popleft, qm.append
-            qnp, qnpl, qna = qn.pop, qn.popleft, qn.append
+            h1 = t1 = h2 = t2 = 0
             
-            for r, vr in enumerate(_nums):
-                while qm and _nums[qm[-1]] <= vr: qmp()
-                qma(r)
-                while qn and _nums[qn[-1]] >= vr: qnp()
-                qna(r)
+            for r, vr in enumerate(nums):
+                # Update monotonic max queue
+                while t1 > h1 and q1v[t1 - 1] <= vr:
+                    t1 -= 1
+                q1[t1] = r
+                q1v[t1] = vr
+                t1 += 1
                 
-                while _nums[qm[0]] - _nums[qn[0]] >= mid:
+                # Update monotonic min queue
+                while t2 > h2 and q2v[t2 - 1] >= vr:
+                    t2 -= 1
+                q2[t2] = r
+                q2v[t2] = vr
+                t2 += 1
+                
+                v1, v2 = q1v[h1], q2v[h2]
+                while v1 - v2 >= mid:
                     curr_l += 1
-                    if qm[0] < curr_l: qmpl()
-                    if qn[0] < curr_l: qnpl()
+                    if q1[h1] < curr_l:
+                        h1 += 1
+                        v1 = q1v[h1]
+                    if q2[h2] < curr_l:
+                        h2 += 1
+                        v2 = q2v[h2]
                 l_cnt += curr_l
-                # Optimization: Break early if we already found k subarrays
                 if l_cnt >= k:
                     break
             
@@ -46,57 +57,60 @@ class Solution:
             else:
                 high = mid - 1
         
-        # Step 2: Sum all values strictly greater than threshold
+        # Step 2: Final Summation for values strictly greater than threshold
         target_x = threshold + 1
-        q_max, q_min = collections.deque(), collections.deque()
-        qma, qmp, qmpl = q_max.append, q_max.pop, q_max.popleft
-        qna, qnp, qnpl = q_min.append, q_min.pop, q_min.popleft
+        s_plus = 0
+        c_plus = 0
+        h1 = t1 = h2 = t2 = 0
+        curr_l = 0
         
-        max_stack, max_starts = [], []
-        min_stack, min_starts = [], []
+        max_stack = [] # (val, start_idx, area_prefix_sum)
+        max_starts = []
+        min_stack = []
+        min_starts = []
         
-        l, c_plus, s_plus = 0, 0, 0
-        for r, v in enumerate(_nums):
-            # Count logic for subarrays with value >= threshold + 1
-            while q_max and _nums[q_max[-1]] <= v: qmp()
-            qma(r)
-            while q_min and _nums[q_min[-1]] >= v: qnp()
-            qna(r)
-            while _nums[q_max[0]] - _nums[q_min[0]] >= target_x:
-                l += 1
-                if q_max[0] < l: qmpl()
-                if q_min[0] < l: qnpl()
-            c_plus += l
+        for r, vr in enumerate(nums):
+            while t1 > h1 and q1v[t1 - 1] <= vr: t1 -= 1
+            q1[t1] = r; q1v[t1] = vr; t1 += 1
+            while t2 > h2 and q2v[t2 - 1] >= vr: t2 -= 1
+            q2[t2] = r; q2v[t2] = vr; t2 += 1
             
-            # Sum logic: Maintain max stack prefix areas
+            v1, v2 = q1v[h1], q2v[h2]
+            while v1 - v2 >= target_x:
+                curr_l += 1
+                if q1[h1] < curr_l:
+                    h1 += 1
+                    v1 = q1v[h1]
+                if q2[h2] < curr_l:
+                    h2 += 1
+                    v2 = q2v[h2]
+            c_plus += curr_l
+            
+            # Monotonic Stack for Max Contribution
             m_start = r
-            while max_stack and max_stack[-1][0] <= v:
+            while max_stack and max_stack[-1][0] <= vr:
                 m_start = max_stack.pop()[1]
                 max_starts.pop()
-            prev_m_area = max_stack[-1][2] if max_stack else 0
-            max_stack.append((v, m_start, prev_m_area + (r - m_start + 1) * v))
+            prev_area = max_stack[-1][2] if max_stack else 0
+            max_stack.append((vr, m_start, prev_area + (r - m_start + 1) * vr))
             max_starts.append(m_start)
             
-            # Sum logic: Maintain min stack prefix areas
+            # Monotonic Stack for Min Contribution
             mi_start = r
-            while min_stack and min_stack[-1][0] >= v:
+            while min_stack and min_stack[-1][0] >= vr:
                 mi_start = min_stack.pop()[1]
                 min_starts.pop()
-            prev_mi_area = min_stack[-1][2] if min_stack else 0
-            min_stack.append((v, mi_start, prev_mi_area + (r - mi_start + 1) * v))
+            prev_area_mi = min_stack[-1][2] if min_stack else 0
+            min_stack.append((vr, mi_start, prev_area_mi + (r - mi_start + 1) * vr))
             min_starts.append(mi_start)
             
-            # Query the area [0, l-1] to get the sum of values ending at r
-            L = l - 1
+            L = curr_l - 1
             if L >= 0:
-                # Max query
-                im = bisect_right(max_starts, L) - 1
-                sm_tuple = max_stack[im]
-                s_plus += (max_stack[im-1][2] if im > 0 else 0) + (L - sm_tuple[1] + 1) * sm_tuple[0]
-                # Min query
-                imi = bisect_right(min_starts, L) - 1
-                smi_tuple = min_stack[imi]
-                s_plus -= (min_stack[imi-1][2] if imi > 0 else 0) + (L - smi_tuple[1] + 1) * smi_tuple[0]
-        
-        # The total value is the sum of (values > threshold) + remaining subarrays * threshold
+                # Query sum of Max and Min for all starts l in [0, L]
+                idx = bisect_right(max_starts, L) - 1
+                s_plus += (max_stack[idx-1][2] if idx > 0 else 0) + (L - max_stack[idx][1] + 1) * max_stack[idx][0]
+                
+                idx_mi = bisect_right(min_starts, L) - 1
+                s_plus -= (min_stack[idx_mi-1][2] if idx_mi > 0 else 0) + (L - min_stack[idx_mi][1] + 1) * min_stack[idx_mi][0]
+                
         return s_plus + (k - c_plus) * threshold
