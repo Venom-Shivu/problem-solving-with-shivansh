@@ -199,6 +199,7 @@ If you find this repository useful:
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3689-maximum-total-subarray-value-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3689-maximum-total-subarray-value-i) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3691-maximum-total-subarray-value-ii) |
+| [3838-weighted-word-mapping](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3838-weighted-word-mapping) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -277,6 +278,7 @@ If you find this repository useful:
 | [3093-longest-common-suffix-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3093-longest-common-suffix-queries) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3121-count-the-number-of-special-characters-ii) |
+| [3838-weighted-word-mapping](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3838-weighted-word-mapping) |
 ## Hash Table
 |  |
 | ------- |
@@ -503,6 +505,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2161-partition-array-according-to-given-pivot) |
+| [3838-weighted-word-mapping](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3838-weighted-word-mapping) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
