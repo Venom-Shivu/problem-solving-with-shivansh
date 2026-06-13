@@ -1,20 +1,20 @@
-from typing import List
-
 class Solution:
     def mapWordWeights(self, words: List[str], weights: List[int]) -> str:
-        w = [0] * 123
-
-        for i in range(26):
-            w[i + 97] = weights[i]
-
-        res = []
-        append = res.append
-
-        for word in words:
-            total = 0
-            for ch in word:
-                total += w[ord(ch)]
-
-            append(chr(122 - (total % 26)))
-
-        return ''.join(res)
+        alpha="abcdefghijklmnopqrstuvwxyz"
+        dict_={}
+        j=0
+        for i in alpha:
+            dict_[i]=weights[j]
+            j+=1
+        add=0
+        ans=[]
+        for i in words:
+            add=0
+            for j in i:
+                add=add+dict_[j]
+            result=add%26
+            ans.append(result)
+        answer=""
+        for i in ans:
+            answer=answer+chr(96+26-i)
+        return answer
