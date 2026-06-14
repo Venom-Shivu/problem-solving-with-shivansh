@@ -254,6 +254,7 @@ If you find this repository useful:
 | [0151-reverse-words-in-a-string](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0165-compare-version-numbers) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2161-partition-array-according-to-given-pivot) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -371,6 +372,7 @@ If you find this repository useful:
 | [0146-lru-cache](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0146-lru-cache) |
 | [0147-insertion-sort-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0147-insertion-sort-list) |
 | [0148-sort-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0148-sort-list) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Trie
 |  |
 | ------- |
@@ -390,6 +392,7 @@ If you find this repository useful:
 | [0150-evaluate-reverse-polish-notation](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0173-binary-search-tree-iterator) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
