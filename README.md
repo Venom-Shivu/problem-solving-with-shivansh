@@ -280,6 +280,7 @@ If you find this repository useful:
 | [3093-longest-common-suffix-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3093-longest-common-suffix-queries) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3121-count-the-number-of-special-characters-ii) |
+| [3612-process-string-with-special-operations-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3612-process-string-with-special-operations-i) |
 | [3838-weighted-word-mapping](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3838-weighted-word-mapping) |
 ## Hash Table
 |  |
@@ -512,6 +513,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2161-partition-array-according-to-given-pivot) |
+| [3612-process-string-with-special-operations-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3612-process-string-with-special-operations-i) |
 | [3838-weighted-word-mapping](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3838-weighted-word-mapping) |
 ## Heap (Priority Queue)
 |  |
