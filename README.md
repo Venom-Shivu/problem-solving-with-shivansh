@@ -183,6 +183,7 @@ If you find this repository useful:
 | [0169-majority-element](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0169-majority-element) |
 | [0174-dungeon-game](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0174-dungeon-game) |
 | [0179-largest-number](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0179-largest-number) |
+| [0198-house-robber](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0198-house-robber) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -214,6 +215,7 @@ If you find this repository useful:
 | [0140-word-break-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0140-word-break-ii) |
 | [0152-maximum-product-subarray](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0152-maximum-product-subarray) |
 | [0174-dungeon-game](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0174-dungeon-game) |
+| [0198-house-robber](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0198-house-robber) |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 | [1871-jump-game-vii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1871-jump-game-vii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
