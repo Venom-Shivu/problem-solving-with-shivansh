@@ -1,40 +1,41 @@
 class Solution:
     def processStr(self, s: str, k: int) -> str:
-        n = len(s)
-
-        lens = [0] * (n + 1)
-
-        for i, c in enumerate(s):
-            cur = lens[i]
-
-            if 'a' <= c <= 'z':
-                lens[i + 1] = cur + 1
-            elif c == '*':
-                lens[i + 1] = max(0, cur - 1)
+        # First pass, identify the final length of the string
+        l = 0
+        for c in s:
+            if c == '*':
+                if l > 0:
+                    l -= 1
             elif c == '#':
-                lens[i + 1] = cur * 2
-            else:  # %
-                lens[i + 1] = cur
+                l *= 2
+            elif c == '%':
+                pass
+            else:
+                l += 1
 
-        if k >= lens[n]:
+        # We must be looking for position 'k' within the length 'l',
+        # otherwise return undefined char
+        if k >= l:
             return '.'
 
-        for i in range(n - 1, -1, -1):
-            c = s[i]
-            prev = lens[i]
-            cur = lens[i + 1]
-
-            if 'a' <= c <= 'z':
-                if k == prev:
-                    return c
-
-            elif c == '*':
-                pass
-
+        # Second pass: Update `k`, and `l` which dynamically tracks
+        # the length of the string while backtracking.
+        ptr = k
+        for c in s[::-1]:
+            if c == '*':
+                l += 1
             elif c == '#':
-                k %= prev
-
-            else:  # %
-                k = cur - 1 - k
-
-        return '.'
+                if ptr >= l // 2:
+                    ptr -= l // 2
+                l = l // 2
+            elif c == '%':
+                # even length string: let's say l == 2, then 0<=>1
+                # odd length string: let's say l == 3, then 0<=>2, 1 unchanged
+                # either way:
+                ptr = (l - 1) - ptr
+            else:
+                # Early return: the character was added here
+                if l == ptr + 1:
+                    return c
+                l -= 1
+        return s[ptr]
