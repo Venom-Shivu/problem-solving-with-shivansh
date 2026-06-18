@@ -456,6 +456,7 @@ If you find this repository useful:
 | [0171-excel-sheet-column-number](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0171-excel-sheet-column-number) |
 | [0172-factorial-trailing-zeroes](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0172-factorial-trailing-zeroes) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
+| [1344-angle-between-hands-of-a-clock](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1344-angle-between-hands-of-a-clock) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3751-total-waviness-of-numbers-in-range-i) |
