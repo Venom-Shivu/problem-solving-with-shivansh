@@ -186,6 +186,7 @@ If you find this repository useful:
 | [0198-house-robber](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0198-house-robber) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
+| [1732-find-the-highest-altitude](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [2126-destroying-asteroids](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
@@ -433,6 +434,7 @@ If you find this repository useful:
 ## Prefix Sum
 |  |
 | ------- |
+| [1732-find-the-highest-altitude](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1732-find-the-highest-altitude) |
 | [1871-jump-game-vii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1871-jump-game-vii) |
 | [2574-left-and-right-sum-differences](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2574-left-and-right-sum-differences) |
 ## Divide and Conquer
