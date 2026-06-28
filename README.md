@@ -189,6 +189,7 @@ If you find this repository useful:
 | [1732-find-the-highest-altitude](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1833-maximum-ice-cream-bars](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1833-maximum-ice-cream-bars) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2126-destroying-asteroids](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2161-partition-array-according-to-given-pivot) |
@@ -231,6 +232,7 @@ If you find this repository useful:
 | [0135-candy](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0179-largest-number) |
 | [1833-maximum-ice-cream-bars](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1833-maximum-ice-cream-bars) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2126-destroying-asteroids](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
@@ -416,6 +418,7 @@ If you find this repository useful:
 | [0179-largest-number](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0179-largest-number) |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 | [1833-maximum-ice-cream-bars](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1833-maximum-ice-cream-bars) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2126-destroying-asteroids](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
