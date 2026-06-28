@@ -325,6 +325,7 @@ If you find this repository useful:
 | [0127-word-ladder](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0133-clone-graph) |
+| [0199-binary-tree-right-side-view](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0199-binary-tree-right-side-view) |
 ## Union-Find
 |  |
 | ------- |
@@ -336,6 +337,7 @@ If you find this repository useful:
 | [0129-sum-root-to-leaf-numbers](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0145-binary-tree-postorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0173-binary-search-tree-iterator) |
+| [0199-binary-tree-right-side-view](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0199-binary-tree-right-side-view) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2196-create-binary-tree-from-descriptions) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Depth-First Search
@@ -345,6 +347,7 @@ If you find this repository useful:
 | [0130-surrounded-regions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0133-clone-graph) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0145-binary-tree-postorder-traversal) |
+| [0199-binary-tree-right-side-view](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0199-binary-tree-right-side-view) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Binary Tree
 |  |
@@ -352,6 +355,7 @@ If you find this repository useful:
 | [0129-sum-root-to-leaf-numbers](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0145-binary-tree-postorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0173-binary-search-tree-iterator) |
+| [0199-binary-tree-right-side-view](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0199-binary-tree-right-side-view) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2196-create-binary-tree-from-descriptions) |
 ## Matrix
 |  |
