@@ -2,10 +2,14 @@ from typing import List
 
 class Solution:
     def maximumElementAfterDecrementingAndRearranging(self, arr: List[int]) -> int:
-        arr.sort()
-        arr[0] = 1
+        n = len(arr)
+        cnt = [0] * (n + 1)
 
-        for i in range(1, len(arr)):
-            arr[i] = min(arr[i], arr[i - 1] + 1)
+        for x in arr:
+            cnt[min(x, n)] += 1
 
-        return arr[-1]
+        ans = 0
+        for x in range(1, n + 1):
+            ans = min(ans + cnt[x], x)
+
+        return ans
