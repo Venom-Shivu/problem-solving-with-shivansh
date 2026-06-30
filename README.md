@@ -283,6 +283,7 @@ If you find this repository useful:
 | [0171-excel-sheet-column-number](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0171-excel-sheet-column-number) |
 | [0179-largest-number](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0179-largest-number) |
 | [0756-pyramid-transition-matrix](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0756-pyramid-transition-matrix) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1871-jump-game-vii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1871-jump-game-vii) |
 | [3093-longest-common-suffix-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3093-longest-common-suffix-queries) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3120-count-the-number-of-special-characters-i) |
@@ -308,6 +309,7 @@ If you find this repository useful:
 | [0169-majority-element](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0169-majority-element) |
 | [0756-pyramid-transition-matrix](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0756-pyramid-transition-matrix) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2196-create-binary-tree-from-descriptions) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3121-count-the-number-of-special-characters-ii) |
@@ -440,6 +442,7 @@ If you find this repository useful:
 ## Sliding Window
 |  |
 | ------- |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1871-jump-game-vii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1871-jump-game-vii) |
 ## Prefix Sum
 |  |
