@@ -200,6 +200,7 @@ If you find this repository useful:
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
+| [3620-network-recovery-pathways](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3620-network-recovery-pathways) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3689-maximum-total-subarray-value-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3689-maximum-total-subarray-value-i) |
@@ -223,6 +224,7 @@ If you find this repository useful:
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 | [1871-jump-game-vii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1871-jump-game-vii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
+| [3620-network-recovery-pathways](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3620-network-recovery-pathways) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 ## Greedy
@@ -249,6 +251,7 @@ If you find this repository useful:
 | [0162-find-peak-element](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [3161-block-placement-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3161-block-placement-queries) |
+| [3620-network-recovery-pathways](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3620-network-recovery-pathways) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Two Pointers
@@ -373,6 +376,7 @@ If you find this repository useful:
 | ------- |
 | [0133-clone-graph](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0133-clone-graph) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3620-network-recovery-pathways) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -543,6 +547,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3620-network-recovery-pathways) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Counting Sort
 |  |
@@ -552,4 +557,9 @@ If you find this repository useful:
 |  |
 | ------- |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3620-network-recovery-pathways) |
+## Topological Sort
+|  |
+| ------- |
+| [3620-network-recovery-pathways](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3620-network-recovery-pathways) |
 <!---LeetCode Topics End-->
