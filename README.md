@@ -197,6 +197,7 @@ If you find this repository useful:
 | [2574-left-and-right-sum-differences](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/2574-left-and-right-sum-differences) |
 | [3093-longest-common-suffix-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3093-longest-common-suffix-queries) |
 | [3161-block-placement-queries](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3161-block-placement-queries) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
@@ -328,6 +329,7 @@ If you find this repository useful:
 | [0130-surrounded-regions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0199-binary-tree-right-side-view) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Union-Find
 |  |
 | ------- |
@@ -365,10 +367,12 @@ If you find this repository useful:
 | [0130-surrounded-regions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0130-surrounded-regions) |
 | [0174-dungeon-game](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0174-dungeon-game) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Graph Theory
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0133-clone-graph) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -538,9 +542,14 @@ If you find this repository useful:
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Counting Sort
 |  |
 | ------- |
 | [1833-maximum-ice-cream-bars](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1833-maximum-ice-cream-bars) |
+## Shortest Path
+|  |
+| ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3286-find-a-safe-walk-through-a-grid) |
 <!---LeetCode Topics End-->
