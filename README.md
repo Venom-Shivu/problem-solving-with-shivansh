@@ -184,6 +184,7 @@ If you find this repository useful:
 | [0174-dungeon-game](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0174-dungeon-game) |
 | [0179-largest-number](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0200-number-of-islands) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
 | [1340-jump-game-v](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1340-jump-game-v) |
 | [1732-find-the-highest-altitude](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/1732-find-the-highest-altitude) |
@@ -332,12 +333,14 @@ If you find this repository useful:
 | [0130-surrounded-regions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0200-number-of-islands) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Union-Find
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0200-number-of-islands) |
 ## Tree
 |  |
 | ------- |
@@ -355,6 +358,7 @@ If you find this repository useful:
 | [0133-clone-graph](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0133-clone-graph) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0200-number-of-islands) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Binary Tree
 |  |
@@ -369,6 +373,7 @@ If you find this repository useful:
 | ------- |
 | [0130-surrounded-regions](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0130-surrounded-regions) |
 | [0174-dungeon-game](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0174-dungeon-game) |
+| [0200-number-of-islands](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0200-number-of-islands) |
 | [0840-magic-squares-in-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0840-magic-squares-in-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Graph Theory
