@@ -158,6 +158,7 @@ If you find this repository useful:
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0001-two-sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0033-search-in-rotated-sorted-array) |
 | [0119-pascals-triangle-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0119-pascals-triangle-ii) |
 | [0120-triangle](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0120-triangle) |
@@ -299,6 +300,7 @@ If you find this repository useful:
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0001-two-sum) |
 | [0126-word-ladder-ii](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/Venom-Shivu/problem-solving-with-shivansh/tree/master/0128-longest-consecutive-sequence) |
